@@ -1,26 +1,18 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from mnist import MNIST
 
-
+# loading the data
 data = MNIST(r'data')
 images, labels = data.load_training()
 im_test, lab_test = data.load_testing()
 
-'''HYPERPARAMETERS lol
-LEARNING_RATE = 0.003
-ITERATIONS = 5
-BATCH_SIZE = 1
-BETA = 0.9
-'''
+# set of hyperparameters for better results 
 LEARNING_RATES = [0.001, 0.003, 0.01]
 ITERATIONSS = [5, 10, 20]
 BATCH_SIZES = [1, 32, 128]
 BETAS = [0.9, 0.95]
 
-# total : 1min 45sec
-
-
+# cleaning the data
 def preprocess_data(x, y):
     print('preprocessing {} samples'.format(len(x)))
     indexes = []
@@ -29,9 +21,9 @@ def preprocess_data(x, y):
         if val is not 0 and val is not 1:
             indexes.append(idx)
             if val in [2, 3, 5, 7]:
-                cleaned_labels.append(1)  # liczba pierwsza 1
+                cleaned_labels.append(1)  # prime number 1
             else:
-                cleaned_labels.append(0)  # liczba zlozona  0
+                cleaned_labels.append(0)  # else   0
 
     cleaned_imgs = [x[i] for i in indexes]
     for image in cleaned_imgs:
@@ -40,7 +32,7 @@ def preprocess_data(x, y):
 
     return cleaned_imgs, cleaned_labels
 
-
+# actual model
 class Model:
 
     def __init__(self):
@@ -98,25 +90,14 @@ class Model:
     @staticmethod
     def cost_derivative(x, y, f):
         return (x - y)*f
-
-
+    
+    
+# cleaning our dataset
 images, labels = preprocess_data(images, labels)
 im_test, lab_test = preprocess_data(im_test, lab_test)
 
-LEARNING_RATE = 0.001
-ITERATIONS = 5
-BATCH_SIZE = 128
-BETA = 0.9
-#  acc: 0.9204819277108434
-
-m = Model()
-m.fit(images, labels)
-v = m.predict(im_test)
-score = m.evaluate(lab_test, v)
-print('acc: {}'.format(score))
-
-''' 
-f = open('Results_1.txt', 'a')
+# storing all results in .txt file
+f = open('Results.txt', 'a')
 for q in LEARNING_RATES:
     for w in ITERATIONSS:
         for e in BATCH_SIZES:
@@ -132,4 +113,3 @@ for q in LEARNING_RATES:
                 f.write('#'*40)
                 f.write('\nlearning rate: {}\niterations: {}\nbatch size: {}\nbeta: {}\nSCORE: {}\n'.format(q, w, e, r, score))
 f.close()
-'''
