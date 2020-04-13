@@ -1,0 +1,324 @@
+########################################
+learning rate: 0.001
+iterations: 5
+batch size: 1
+beta: 0.9
+SCORE: 0.8686112872542803
+########################################
+learning rate: 0.001
+iterations: 5
+batch size: 1
+beta: 0.95
+SCORE: 0.8759670259987318
+########################################
+learning rate: 0.001
+iterations: 5
+batch size: 32
+beta: 0.9
+SCORE: 0.5771718452758402
+########################################
+learning rate: 0.001
+iterations: 5
+batch size: 32
+beta: 0.95
+SCORE: 0.8687381103360812
+########################################
+learning rate: 0.001
+iterations: 5
+batch size: 128
+beta: 0.9
+SCORE: 0.9181991122384274
+########################################
+learning rate: 0.001
+iterations: 5
+batch size: 128
+beta: 0.95
+SCORE: 0.9042485732403297
+########################################
+learning rate: 0.001
+iterations: 10
+batch size: 1
+beta: 0.9
+SCORE: 0.8659480025364616
+########################################
+learning rate: 0.001
+iterations: 10
+batch size: 1
+beta: 0.95
+SCORE: 0.8772352568167406
+########################################
+learning rate: 0.001
+iterations: 10
+batch size: 32
+beta: 0.9
+SCORE: 0.8715282181357007
+########################################
+learning rate: 0.001
+iterations: 10
+batch size: 32
+beta: 0.95
+SCORE: 0.9127457197209892
+########################################
+learning rate: 0.001
+iterations: 10
+batch size: 128
+beta: 0.9
+SCORE: 0.8984147114774889
+########################################
+learning rate: 0.001
+iterations: 10
+batch size: 128
+beta: 0.95
+SCORE: 0.9133798351299937
+########################################
+learning rate: 0.001
+iterations: 20
+batch size: 1
+beta: 0.9
+SCORE: 0.9103360811667723
+########################################
+learning rate: 0.001
+iterations: 20
+batch size: 1
+beta: 0.95
+SCORE: 0.8754597336715282
+########################################
+learning rate: 0.001
+iterations: 20
+batch size: 32
+beta: 0.9
+SCORE: 0.5610653138871274
+########################################
+learning rate: 0.001
+iterations: 20
+batch size: 32
+beta: 0.95
+SCORE: 0.9074191502853519
+########################################
+learning rate: 0.001
+iterations: 20
+batch size: 128
+beta: 0.9
+SCORE: 0.6360177552314521
+########################################
+learning rate: 0.001
+iterations: 20
+batch size: 128
+beta: 0.95
+SCORE: 0.9194673430564363
+########################################
+learning rate: 0.003
+iterations: 5
+batch size: 1
+beta: 0.9
+SCORE: 0.8530120481927711
+########################################
+learning rate: 0.003
+iterations: 5
+batch size: 1
+beta: 0.95
+SCORE: 0.8523779327837666
+########################################
+learning rate: 0.003
+iterations: 5
+batch size: 32
+beta: 0.9
+SCORE: 0.5778059606848447
+########################################
+learning rate: 0.003
+iterations: 5
+batch size: 32
+beta: 0.95
+SCORE: 0.7937856689917565
+########################################
+learning rate: 0.003
+iterations: 5
+batch size: 128
+beta: 0.9
+SCORE: 0.9025998731769181
+########################################
+learning rate: 0.003
+iterations: 5
+batch size: 128
+beta: 0.95
+SCORE: 0.9178186429930247
+########################################
+learning rate: 0.003
+iterations: 10
+batch size: 1
+beta: 0.9
+SCORE: 0.8166138237159163
+########################################
+learning rate: 0.003
+iterations: 10
+batch size: 1
+beta: 0.95
+SCORE: 0.8856055802155992
+########################################
+learning rate: 0.003
+iterations: 10
+batch size: 32
+beta: 0.9
+SCORE: 0.9127457197209892
+########################################
+learning rate: 0.003
+iterations: 10
+batch size: 32
+beta: 0.95
+SCORE: 0.8801521876981611
+########################################
+learning rate: 0.003
+iterations: 10
+batch size: 128
+beta: 0.9
+SCORE: 0.896005072923272
+########################################
+learning rate: 0.003
+iterations: 10
+batch size: 128
+beta: 0.95
+SCORE: 0.845149017121116
+########################################
+learning rate: 0.003
+iterations: 20
+batch size: 1
+beta: 0.9
+SCORE: 0.8682308180088776
+########################################
+learning rate: 0.003
+iterations: 20
+batch size: 1
+beta: 0.95
+SCORE: 0.8216867469879519
+########################################
+learning rate: 0.003
+iterations: 20
+batch size: 32
+beta: 0.9
+SCORE: 0.749143944197844
+########################################
+learning rate: 0.003
+iterations: 20
+batch size: 32
+beta: 0.95
+SCORE: 0.9103360811667723
+########################################
+learning rate: 0.003
+iterations: 20
+batch size: 128
+beta: 0.9
+SCORE: 0.9079264426125555
+########################################
+learning rate: 0.003
+iterations: 20
+batch size: 128
+beta: 0.95
+SCORE: 0.9067850348763475
+########################################
+learning rate: 0.01
+iterations: 5
+batch size: 1
+beta: 0.9
+SCORE: 0.8782498414711477
+########################################
+learning rate: 0.01
+iterations: 5
+batch size: 1
+beta: 0.95
+SCORE: 0.890424857324033
+########################################
+learning rate: 0.01
+iterations: 5
+batch size: 32
+beta: 0.9
+SCORE: 0.8878883956880153
+########################################
+learning rate: 0.01
+iterations: 5
+batch size: 32
+beta: 0.95
+SCORE: 0.851997463538364
+########################################
+learning rate: 0.01
+iterations: 5
+batch size: 128
+beta: 0.9
+SCORE: 0.9159162967660114
+########################################
+learning rate: 0.01
+iterations: 5
+batch size: 128
+beta: 0.95
+SCORE: 0.9194673430564363
+########################################
+learning rate: 0.01
+iterations: 10
+batch size: 1
+beta: 0.9
+SCORE: 0.8974001268230818
+########################################
+learning rate: 0.01
+iterations: 10
+batch size: 1
+beta: 0.95
+SCORE: 0.8736842105263158
+########################################
+learning rate: 0.01
+iterations: 10
+batch size: 32
+beta: 0.9
+SCORE: 0.7055168040583386
+########################################
+learning rate: 0.01
+iterations: 10
+batch size: 32
+beta: 0.95
+SCORE: 0.6019023462270133
+########################################
+learning rate: 0.01
+iterations: 10
+batch size: 128
+beta: 0.9
+SCORE: 0.8972733037412809
+########################################
+learning rate: 0.01
+iterations: 10
+batch size: 128
+beta: 0.95
+SCORE: 0.9199746353836398
+########################################
+learning rate: 0.01
+iterations: 20
+batch size: 1
+beta: 0.9
+SCORE: 0.8849714648065948
+########################################
+learning rate: 0.01
+iterations: 20
+batch size: 1
+beta: 0.95
+SCORE: 0.8867469879518072
+########################################
+learning rate: 0.01
+iterations: 20
+batch size: 32
+beta: 0.9
+SCORE: 0.8935954343690552
+########################################
+learning rate: 0.01
+iterations: 20
+batch size: 32
+beta: 0.95
+SCORE: 0.6758402029169309
+########################################
+learning rate: 0.01
+iterations: 20
+batch size: 128
+beta: 0.9
+SCORE: 0.8424857324032974
+########################################
+learning rate: 0.01
+iterations: 20
+batch size: 128
+beta: 0.95
+SCORE: 0.7932783766645529
